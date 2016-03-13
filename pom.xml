@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.whitesource</groupId>
+  <artifactId>mymaven-project</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <build>
+  	<plugins>
+		<plugin>
+		    <groupId>org.whitesource</groupId>
+		    <artifactId>whitesource-maven-plugin</artifactId>
+		    <version>3.1.8-SNAPSHOT</version>
+		    <configuration>
+		        <orgToken>1029d632-08ab-4b21-8f25-a874b8883ad8</orgToken>
+		    </configuration>
+		</plugin>
+  	</plugins>
+  </build>
+  <dependencies>
+  	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-beans</artifactId>
+		<version>4.2.5.RELEASE</version>
+	</dependency>
+  </dependencies>
+</project>
