@@ -21,10 +21,10 @@
 		<artifactId>spring-beans</artifactId>
 		<version>4.2.5.RELEASE</version>
 	</dependency>
-	<dependency>
+	<!--<dependency>
 	  <groupId>com.atlassian.jira</groupId>
 	  <artifactId>jira-core</artifactId>
 	  <version>6.4</version>
-	</dependency>
+	</dependency>-->
   </dependencies>
 </project>
